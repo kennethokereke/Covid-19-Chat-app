@@ -12,7 +12,13 @@ const CustomListItem = () => {
                 "https://cencup.com/wp-content/uploads/2019/avatar-placeholder.png",
            }}
            />
+           <ListItem.Content>
+               <ListItem.Title style={{fontWeight: "800"}}>
+                Youtube Challenge
+               </ListItem.Title>
+           </ListItem.Content>
        </ListItem>
+
     )
 }
 
